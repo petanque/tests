@@ -1,0 +1,18 @@
+#cloud-config
+
+hostname: rancher
+
+rancher:
+  network:
+    interfaces:
+      eth0:
+        address: 192.168.0.24/24
+        gateway: 192.168.0.1
+        dhcp: false
+    dns:
+      nameservers:
+        - 1.1.1.1
+        - 1.0.0.1
+
+ssh_authorized_keys:
+  - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILpp8Bv9hinGKJJj4cNs9vs9DA8SwgvyJjPYq1zxv6pE wartof@hotmail.com
