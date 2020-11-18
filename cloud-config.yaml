@@ -15,4 +15,4 @@ rancher:
         - 1.0.0.1
 
 ssh_authorized_keys:
-  - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILpp8Bv9hinGKJJj4cNs9vs9DA8SwgvyJjPYq1zxv6pE wartof@hotmail.com
+  - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII36AYF/ZongFdx3AEEwSV6PcS3QflLgHcL1tI+BW0OF
